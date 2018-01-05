@@ -73,7 +73,7 @@ front-matter-parser values <file|pattern> <fields...> --ignore [,<file|pattern>]
 
 `file|pattern`: the path to a file, or a glob pattern to mulitple files.
 
-`fields`: a space delimited list of all fields whose possible values you want to find. Supports [nested field notation](#nested-field-notation.
+`fields`: a space delimited list of all fields whose possible values you want to find. Supports [nested field notation](#nested-field-notation).
 
 `--ignore`: a comma delimited list of file paths or glob patterns to ignore when loading files.
 
@@ -126,7 +126,7 @@ front-matter-parser values "landing-pages/**/*.md" hero.icon
 ```
 
 #### Working with arrays
-For the purpose of this notation, ignore the array. For example, considering:
+For the purpose of this notation, treat the array like an object. For example, considering:
 
 ```
 example-file.md
@@ -139,10 +139,10 @@ array:
 ...
 ```
 
-We can find all possible values for `key` easily:
+We can find all possible values for `key1` easily:
 
 ```
-front-matter-parser values example-file.md key1
+front-matter-parser values example-file.md array.key1
 
 => outputs: a, c, ...
 ```

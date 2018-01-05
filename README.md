@@ -7,7 +7,7 @@ This utility is aimed to make understanding the data structure of front matter d
 Run the following command:
 
 ```
-npm install github:forestryio/front-matter-parser
+npm install github:chrisdmacrae/front-matter-parser
 ```
 
 ## Usage

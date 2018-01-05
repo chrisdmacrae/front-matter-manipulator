@@ -6,8 +6,14 @@ This utility is aimed to make understanding the data structure of front matter d
 
 Run the following command:
 
+Use as CLI:
 ```
-npm install github:chrisdmacrae/front-matter-parser
+npm install -g github:chrisdmacrae/front-matter-parser
+```
+
+Use in scripts:
+```
+npm install github:chrisdmacrae/front-matter-parser --save-dev
 ```
 
 # Usage

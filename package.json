@@ -2,11 +2,10 @@
   "name": "front-matter-parser",
   "version": "1.0.0",
   "description": "Utilities for extracting data from front matter",
-  "main": "index.js",
+  "main": "./lib/fields.js",
   "directories": {
     "lib": "lib"
   },
-  "main": "./lib/fields.js",
   "bin": "./lib/cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,10 +13,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "deepmerge": "^2.0.1",
     "flat": "^4.0.0",
     "glob": "^7.1.2",
     "gray-matter": "^3.1.1",
     "lodash": "^4.17.4",
+    "toml": "^2.3.3",
+    "yaml": "^0.3.0",
+    "yamljs": "^0.3.0",
     "yargs": "^10.0.3"
   }
 }

@@ -20,12 +20,16 @@ This utility can get all of the fields for a given file or set of files.
 From the command line, run:
 
 ```
-front-matter-parser fields <file|pattern> -F key=value,key2=value2 -O output.json
+front-matter-parser fields <file|pattern> --ignore [,<file|pattern>] -I [,key=value] -O output.json
 ```
 
 `file|pattern`: the path to a file, or a glob pattern to mulitple files.
 
-`--filter`, `-F`: a comma delimited list of key=value pairs to restrict results by. Only results that match all filters will be returned.
+`--ignore`: a comma delimited list of file paths or glob patterns to ignore when loading files.
+
+`--include`, `-I`: a comma delimited list of key=value pairs to restrict results by. Only results that match all filters will be returned.
+
+`--exclude`, `-E`: a comma delimited list of key=value pairs to restrict results by. Only results that don't match any of the pairs will be returned.
 
 `--output`, `-O` `[optional]`: the file to write the JSON output
 
@@ -54,11 +58,13 @@ This utility can also get you all of the values for a given field.
 From the command line, run:
 
 ```
-front-matter-parser values <file|pattern> <fields...> -O output.json
+front-matter-parser values <file|pattern> <fields...> --ignore [,<file|pattern>] -O output.json
 ```
 
 `file|pattern`: the path to a file, or a glob pattern to mulitple files.
 
 `fields`: a space delimited list of all fields whose possible values you want to find
+
+`--ignore`: a comma delimited list of file paths or glob patterns to ignore when loading files.
 
 `--output`, `-O` `[optional]`: the file to write the JSON output

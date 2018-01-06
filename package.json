@@ -22,5 +22,8 @@
     "yaml": "^0.3.0",
     "yamljs": "^0.3.0",
     "yargs": "^10.0.3"
+  },
+  "devDependencies": {
+    "toml-js": "0.0.8"
   }
 }

@@ -8,7 +8,9 @@
   "main": "./lib/index.js",
   "bin": "./lib/cli.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "precommit": "npm test",
+    "prepush": "npm test"
   },
   "author": "",
   "license": "ISC",
@@ -17,9 +19,14 @@
     "flat": "^4.0.0",
     "glob": "^7.1.2",
     "gray-matter": "^3.1.1",
+    "jest": "^22.0.4",
     "lodash": "^4.17.4",
+    "simple-autoloader": "^0.2.0",
     "toml-js": "0.0.8",
     "yamljs": "^0.3.0",
     "yargs": "^10.0.3"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3"
   }
 }

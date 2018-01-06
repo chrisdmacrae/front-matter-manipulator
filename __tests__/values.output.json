@@ -1,0 +1,46 @@
+{
+    "keyValuePair": {
+        "key": [
+            "value"
+        ]
+    },
+    "objectKeyValuePair": {
+        "object.key1": [
+            "value"
+        ]
+    },
+    "objectNestedKeyValuePair": {
+        "object.key2.key2_A": [
+            "value"
+        ]
+    },
+    "array": {
+        "array": [
+            "value1",
+            "value2"
+        ]
+    },
+    "arrayDuplicates": {
+        "arrayDuplicates": [
+            "value"
+        ]
+    },
+    "arrayOfObjectsKeyValuePair": {
+        "arrayOfObjects.key1": [
+            "value",
+            "value2"
+        ]
+    },
+    "arrayOfObjectsNestedKeyValuePair": {
+        "arrayOfObjects.key2.key2_A": [
+            "value",
+            "value2"
+        ]
+    },
+    "arrayOfObjectsDuplicates": {
+        "arrayOfObjectsDuplicates.key": [
+            "value"
+        ]
+    }
+
+}

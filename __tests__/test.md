@@ -1,4 +1,5 @@
 ---
+key: value
 object:
     key1: value
     key2:
@@ -25,8 +26,6 @@ arrayOfObjectsDuplicates:
         key: value
     -
         key: value
-title: null
-key: value
 ---
 ## This is a test file
 Yippee!

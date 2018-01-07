@@ -1,5 +1,4 @@
 ---
-key: value
 object:
     key1: value
     key2:
@@ -13,19 +12,21 @@ arrayDuplicates:
     - value
     - value
 arrayOfObjects:
--
-    key1: value
-    key2:
-        key2_A: value
--
-    key1: value2
-    key2:
-        key2_A: value2
+    -
+        key1: value
+        key2:
+            key2_A: value
+    -
+        key1: value2
+        key2:
+            key2_A: value2
 arrayOfObjectsDuplicates:
--
-    key: value
--
-    key: value
+    -
+        key: value
+    -
+        key: value
+title: null
+key: value
 ---
 ## This is a test file
 Yippee!

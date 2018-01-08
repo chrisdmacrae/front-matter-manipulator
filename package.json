@@ -8,7 +8,7 @@
   "main": "./lib/index.js",
   "bin": "./lib/cli.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest -t \"(values|fields)\" && jest -t \"(rename|update)\" --runInBand",
     "precommit": "npm test",
     "prepush": "npm test"
   },

@@ -9,9 +9,6 @@ object:
 array:
     - value1
     - value2
-arrayDuplicates:
-    - value
-    - value
 arrayOfObjects:
     -
         key1: value
@@ -21,11 +18,6 @@ arrayOfObjects:
         key1: value2
         key2:
             key2_A: value2
-arrayOfObjectsDuplicates:
-    -
-        key: value
-    -
-        key: value
 ---
 ## This is a test file
 Yippee!

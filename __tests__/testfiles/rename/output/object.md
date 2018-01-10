@@ -1,6 +1,6 @@
 ---
 key: value
-object:
+object_test:
     key2:
         key2_A: value
         key2_B:

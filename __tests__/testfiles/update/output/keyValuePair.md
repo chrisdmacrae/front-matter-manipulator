@@ -1,5 +1,5 @@
 ---
-key: value
+key: value_test
 object:
     key1: value
     key2:

@@ -1,7 +1,7 @@
 ---
 key: value
 object:
-    key1: value
+    key1: value_test
     key2:
         key2_A: value
         key2_B:

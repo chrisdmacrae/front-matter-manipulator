@@ -1,11 +1,6 @@
 ---
 key: value
-object:
-    key1: value
-    key2:
-        key2_A: value
-        key2_B:
-            key2_B_1: value
+object: value_test
 array:
     - value1
     - value2

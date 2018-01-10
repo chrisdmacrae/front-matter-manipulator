@@ -11,11 +11,11 @@ array:
     - value2
 arrayOfObjects:
     -
-        key1: value
+        key1: value_test
         key2:
             key2_A: value
     -
-        key1: value2
+        key1: value_test
         key2:
             key2_A: value2
 ---

@@ -7,7 +7,7 @@ object:
         key2_B:
             key2_B_1: value
 array:
-    - value1
+    - value_test
     - value2
 arrayOfObjects:
     -

@@ -11,13 +11,13 @@ array:
     - value2
 arrayOfObjects:
     -
-        key1: value
         key2:
             key2_A: value
+        key1_test: value
     -
-        key1: value2
         key2:
             key2_A: value2
+        key1_test: value2
 ---
 ## This is a test file
 Yippee!

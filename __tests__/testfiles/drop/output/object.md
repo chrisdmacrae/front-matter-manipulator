@@ -1,14 +1,17 @@
 ---
 key: value
-object:
-    key1: value
+object_test:
     key2:
         key2_A: value
         key2_B:
             key2_B_1: value
+    key1_test: value
 array:
     - value1
     - value2
+arrayDuplicates:
+    - value
+    - value
 arrayOfObjects:
     -
         key1: value

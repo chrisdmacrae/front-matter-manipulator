@@ -1,7 +1,7 @@
 {
-  "name": "front-matter-parser",
-  "version": "1.0.0",
-  "description": "Utilities for extracting data from front matter",
+  "name": "front-matter-manipulator",
+  "version": "0.1.0",
+  "description": "A utility for parsing and manipulating documents with Front Matter",
   "directories": {
     "lib": "lib"
   },

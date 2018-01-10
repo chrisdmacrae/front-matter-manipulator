@@ -1,5 +1,3 @@
----
----
 ## Getting Started
 This utility can be used as a Command Line Interface, or as an import in your scripts.
 

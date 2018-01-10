@@ -1,6 +1,6 @@
 {
   "name": "front-matter-manipulator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A utility for parsing and manipulating documents with Front Matter",
   "directories": {
     "lib": "lib"
@@ -9,6 +9,9 @@
   "bin": "./lib/cli.js",
   "scripts": {
     "test": "jest --runInBand",
+    "docs": "npm run docs:cli && npm run docs:scripts",
+    "docs:cli": "documentation build ./lib/commands/*.js -f md --shallow -o docs/cli.md --sort-order alpha",
+    "docs:scripts": "documentation build ./lib/core/*.js -f md --shallow -o docs/scripts.md --sort-order alpha",
     "precommit": "npm test",
     "prepush": "npm test"
   },
@@ -19,6 +22,7 @@
     "chalk": "^2.3.0",
     "cli-spinner": "^0.2.7",
     "deepmerge": "^2.0.1",
+    "documentation": "^5.3.5",
     "flat": "^4.0.0",
     "glob": "^7.1.2",
     "gray-matter": "^3.1.1",

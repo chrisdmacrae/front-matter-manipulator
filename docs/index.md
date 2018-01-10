@@ -1,6 +1,5 @@
-# Front Matter Manipulator
-> A utility for parsing and manipulating documents with Front Matter. Get the fields, values for any collection of documents. Bulk update, delete, or rename fields.
-
+---
+---
 ## Getting Started
 This utility can be used as a Command Line Interface, or as an import in your scripts.
 
@@ -36,21 +35,22 @@ Front Matter Manipulator can be used on the command line to perform operations o
 
 See the documentation for each action:
 
-- [Fields](https://chrisdmacrae.github.io/front-matter-manipulator/cli#fields)
-- [Values](https://chrisdmacrae.github.io/front-matter-manipulator/cli#values)
-- [Update](https://chrisdmacrae.github.io/front-matter-manipulator/cli#update)
-- [Rename](https://chrisdmacrae.github.io/front-matter-manipulator/cli#rename)
-- [Drop](https://chrisdmacrae.github.io/front-matter-manipulator/cli#drop)
-- [Convert](https://chrisdmacrae.github.io/front-matter-manipulator/cli#convert)
+- [Fields](/cli#fields)
+- [Values](/cli#values)
+- [Update](/cli#updates)
+- [Rename](/cli#rename)
+- [Drop](/cli#drop)
+- [Convert](/cli#convert)
 
 ## Usage in node scripts/packages
 Front Matter Manipulator can be used on in javascript files to perform advanced parsing or manipulation of fields.
 
 See the documentation for each action:
 
-- [Fields](https://chrisdmacrae.github.io/front-matter-manipulator/scripts#fields)
-- [Values](https://chrisdmacrae.github.io/front-matter-manipulator/scripts#values)
-- [Update](https://chrisdmacrae.github.io/front-matter-manipulator/scripts#update)
-- [Rename](https://chrisdmacrae.github.io/front-matter-manipulator/scripts#rename)
-- [Drop](https://chrisdmacrae.github.io/front-matter-manipulator/scripts#drop)
-- [Convert](https://chrisdmacrae.github.io/front-matter-manipulator/scripts#convert)
+- [Fields](/scripts#fields)
+- [Values](/scripts#values)
+- [Update](/scripts#updates)
+- [Rename](/scripts#rename)
+- [Drop](/scripts#drop)
+- [Convert](/scripts#convert)
+

@@ -47,8 +47,6 @@ var options = {
 fmp.convert("_posts/**‏/*.md", "categories", options)
 ```
 
-Returns **null** 
-
 ## Drop
 
 ### exports
@@ -82,8 +80,6 @@ var options = {
  
 fmp.drop("**‏/*.md", "categories tags", options)
 ```
-
-Returns **null** 
 
 ## Values
 
@@ -152,8 +148,6 @@ var options = {
  
 fmp.rename("**‏/*.md", "draft", "true", options)
 ```
-
-Returns **null** 
 
 ### replacementCallback - Function to run to rename the field
 
@@ -254,8 +248,6 @@ var options = {
  
 fmp.rename("**‏/*.md", "categories", "tags", options)
 ```
-
-Returns **null** 
 
 ### replacementCallback - Function to run to rename the field
 

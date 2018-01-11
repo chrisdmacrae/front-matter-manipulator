@@ -4,7 +4,7 @@ const expectedData = JSON.parse(fs.readFileSync(__dirname + "/testfiles/fields.o
 
 test("Get fields", () => {
     const input = fields(__dirname + "/testfiles/input.md", {silent: true})
-    const output = JSON.parse(input)
+    const output = input
     const expected = expectedData
 
     expect(output).toEqual(expected)
@@ -12,7 +12,7 @@ test("Get fields", () => {
 
 test("Get fields withgit key-value pair include flag", () => {
     const input = fields(__dirname + "/testfiles/input.md", {include: "key=value", silent: true})
-    const output = JSON.parse(input)
+    const output = input
     const expected = expectedData
 
     expect(output).toEqual(expected)
@@ -20,7 +20,7 @@ test("Get fields withgit key-value pair include flag", () => {
 
 test("Get fields with nested key-value pair include flag", () => {
     const input = fields(__dirname + "/testfiles/input.md", {include: "object.key1=value", silent: true})
-    const output = JSON.parse(input)
+    const output = input
     const expected = expectedData
 
     expect(output).toEqual(expected)
@@ -28,7 +28,7 @@ test("Get fields with nested key-value pair include flag", () => {
 
 test("Get fields with array include flag", () => {
     const input = fields(__dirname + "/testfiles/input.md", {include: "array=value1", silent: true})
-    const output = JSON.parse(input)
+    const output = input
     const expected = expectedData
 
     expect(output).toEqual(expected)
@@ -36,7 +36,7 @@ test("Get fields with array include flag", () => {
 
 test("Get fields with array of objects include flag", () => {
     const input = fields(__dirname + "/testfiles/input.md", {include: "arrayOfObjects.key1=value", silent: true})
-    const output = JSON.parse(input)
+    const output = input
     const expected = expectedData
 
     expect(output).toEqual(expected)
@@ -44,7 +44,7 @@ test("Get fields with array of objects include flag", () => {
 
 test("Get fields with key-value pair exclude flag", () => {
     const input = fields(__dirname + "/testfiles/input.md", {exclude: "key=value", silent: true})
-    const output = JSON.parse(input)
+    const output = input
     const expected = JSON.parse("[]")
 
     expect(output).toEqual(expected)
@@ -52,7 +52,7 @@ test("Get fields with key-value pair exclude flag", () => {
 
 test("Get fields with nested key-value pair exclude flag", () => {
     const input = fields(__dirname + "/testfiles/input.md", {exclude: "object.key1=value", silent: true})
-    const output = JSON.parse(input)
+    const output = input
     const expected = JSON.parse("[]")
 
     expect(output).toEqual(expected)
@@ -60,7 +60,7 @@ test("Get fields with nested key-value pair exclude flag", () => {
 
 test("Get fields with array exclude flag", () => {
     const input = fields(__dirname + "/testfiles/input.md", {exclude: "array=value1", silent: true})
-    const output = JSON.parse(input)
+    const output = input
     const expected = JSON.parse("[]")
 
     expect(output).toEqual(expected)
@@ -68,7 +68,7 @@ test("Get fields with array exclude flag", () => {
 
 test("Get fields with array of objects exclude flag", () => {
     const input = fields(__dirname + "/testfiles/input.md", {exclude: "arrayOfObjects.key1=value", silent: true})
-    const output = JSON.parse(input)
+    const output = input
     const expected = JSON.parse("[]")
 
     expect(output).toEqual(expected)

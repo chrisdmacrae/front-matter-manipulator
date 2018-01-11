@@ -4,7 +4,7 @@ const expectedData = JSON.parse(fs.readFileSync(__dirname + "/testfiles/values.o
 
 test("Get value for key-value pair", () => {
     const input = values(__dirname + "/testfiles/input.md", "key", {silent: true})
-    const output = JSON.parse(input)
+    const output = input
     const expected = expectedData.keyValuePair
 
     expect(output).toEqual(expected)
@@ -12,7 +12,7 @@ test("Get value for key-value pair", () => {
 
 test("Get value for object key-value pair", () => {
     const input = values(__dirname + "/testfiles/input.md", "object.key1", {silent: true})
-    const output = JSON.parse(input)
+    const output = input
     const expected = expectedData.objectKeyValuePair
 
     expect(output).toEqual(expected)
@@ -20,7 +20,7 @@ test("Get value for object key-value pair", () => {
 
 test("Get value for object nested key-value pair", () => {
     const input = values(__dirname + "/testfiles/input.md", "object.key2.key2_A", {silent: true})
-    const output = JSON.parse(input)
+    const output = input
     const expected = expectedData.objectNestedKeyValuePair
 
     expect(output).toEqual(expected)
@@ -28,7 +28,7 @@ test("Get value for object nested key-value pair", () => {
 
 test("Get values for array", () => {
     const input = values(__dirname + "/testfiles/input.md", "array", {silent: true})
-    const output = JSON.parse(input)
+    const output = input
     const expected = expectedData.array
 
     expect(output).toEqual(expected)
@@ -36,7 +36,7 @@ test("Get values for array", () => {
 
 test("Ensure only unique values for array", () => {
     const input = values(__dirname + "/testfiles/input.md", "arrayDuplicates", {silent: true})
-    const output = JSON.parse(input)
+    const output = input
     const expected = expectedData.arrayDuplicates
 
     expect(output).toEqual(expected)
@@ -44,7 +44,7 @@ test("Ensure only unique values for array", () => {
 
 test("Get value for array of objects key-value pair", () => {
     const input = values(__dirname + "/testfiles/input.md", "arrayOfObjects.key1", {silent: true})
-    const output = JSON.parse(input)
+    const output = input
     const expected = expectedData.arrayOfObjectsKeyValuePair
 
     expect(output).toEqual(expected)
@@ -52,7 +52,7 @@ test("Get value for array of objects key-value pair", () => {
 
 test("Get value for array of objects nested key-value pair", () => {
     const input = values(__dirname + "/testfiles/input.md", "arrayOfObjects.key2.key2_A", {silent: true})
-    const output = JSON.parse(input)
+    const output = input
     const expected = expectedData.arrayOfObjectsNestedKeyValuePair
 
     expect(output).toEqual(expected)
@@ -60,7 +60,7 @@ test("Get value for array of objects nested key-value pair", () => {
 
 test("Ensure unique values for array of objects key value pair", () => {
     const input = values(__dirname + "/testfiles/input.md", "arrayOfObjectsDuplicates.key", {silent: true})
-    const output = JSON.parse(input)
+    const output = input
     const expected = expectedData.arrayOfObjectsDuplicates
 
     expect(output).toEqual(expected)

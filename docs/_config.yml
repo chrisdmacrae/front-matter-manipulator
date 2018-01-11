@@ -17,8 +17,8 @@ title: Front Matter Manipulator
 email: hello@chrisdmacrae.com
 description: >- # this means to ignore newlines until "baseurl:"
   A utility for parsing and manipulating documents with Front Matter. Get the fields, values for any collection of documents. Bulk update, delete, or rename fields.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/front-matter-manipulator" # the subpath of your site, e.g. /blog
+url: "https://chrisdmacrae.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 show_downloads: true

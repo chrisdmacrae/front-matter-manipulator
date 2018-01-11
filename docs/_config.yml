@@ -1,1 +1,9 @@
+title: Front Matter Manipulator
+email: hello@chrisdmacrae.com
+description: >-
+  A utility for parsing and manipulating documents with Front Matter. Get the fields, values for any collection of documents. Bulk update, delete, or rename fields.
+markdown: kramdown
 theme: jekyll-theme-cayman
+show_downloads: true
+plugins:
+  - jekyll-feed

@@ -33,22 +33,22 @@ Front Matter Manipulator can be used on the command line to perform operations o
 
 See the documentation for each action:
 
-- [Fields](/cli#fields)
-- [Values](/cli#values)
-- [Update](/cli#updates)
-- [Rename](/cli#rename)
-- [Drop](/cli#drop)
-- [Convert](/cli#convert)
+- [Fields](/front-matter-manipulator/cli#fields)
+- [Values](/front-matter-manipulator/cli#values)
+- [Update](/front-matter-manipulator/cli#updates)
+- [Rename](/front-matter-manipulator/cli#rename)
+- [Drop](/front-matter-manipulator/cli#drop)
+- [Convert](/front-matter-manipulator/cli#convert)
 
 ## Usage in node scripts/packages
 Front Matter Manipulator can be used on in javascript files to perform advanced parsing or manipulation of fields.
 
 See the documentation for each action:
 
-- [Fields](/scripts#fields)
-- [Values](/scripts#values)
-- [Update](/scripts#updates)
-- [Rename](/scripts#rename)
-- [Drop](/scripts#drop)
-- [Convert](/scripts#convert)
+- [Fields](/front-matter-manipulator/scripts#fields)
+- [Values](/front-matter-manipulator/scripts#values)
+- [Update](/front-matter-manipulator/scripts#updates)
+- [Rename](/front-matter-manipulator/scripts#rename)
+- [Drop](/front-matter-manipulator/scripts#drop)
+- [Convert](/front-matter-manipulator/scripts#convert)
 
